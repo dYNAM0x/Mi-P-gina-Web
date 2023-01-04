@@ -1,0 +1,42 @@
+/* selectores:
+
+.name (class)
+
+#name (id)
+
+[src="logo.jpg"] (atributos)  
+
+p#parrafo (especificidad){
+ 
+}
+
+*/
+
+:root {
+    --blanco: #ffffff;
+    --obscurdo: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8 rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.titulo{
+    text-align: center;
+    font-size: var(--fuente-principal);
+}
+
+.titulo span {
+    font-size: small;
+}
