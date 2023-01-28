@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Diseñador Freelancer</title>
+  <link rel="preload" href="css/normalize.css" as="style">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="preload" href="css/styles.css" as="style">
@@ -18,19 +19,22 @@
   </header>
 
   <div class="nav-bg">
-  <nav class="navegacion-principal contenedor">
-    <a href="#">Inicio</a>
-    <a href="#">Sobre Mi</a>
-    <a href="#">Clientes</a>
-    <a href="#">Contactos</a>
-  </nav>
+      <nav class="navegacion-principal contenedor">
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Mi</a>
+        <a href="#">Clientes</a>
+        <a href="#">Contactos</a>
+      </nav>
   </div>
 
-  <img src="/img/photocode.jpg" alt="">
 
-  <section>
+
+  <section class="hero">
+    <div class="contenido-hero">
     <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span> </h2>
 
+     
+    <p> 
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
         <line x1="18" y1="6" x2="18" y2="6.01" />
@@ -40,12 +44,14 @@
         <line x1="15" y1="15" x2="15" y2="20" />
       </svg>
 
-    <p> Puebla, Cholula</p>
+      Puebla, Cholula
+    </p>
     
-    <a href="#">Contactar</a>
+    <a href="#" class="boton">Contactar</a>
+  </div>
   </section>
   
-  <main>
+  <main class="contenedor">
     <h2>Mis servicios</h2>
   
   <section>
